@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width. initial-scale=1"> <!-- 웹페이지 크기 이니셜-스케이 확대정도를 1배율로 함 utf8mb4 -->
+    <title>My portpolio</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- ubuntu font regular 400-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- nanum gothic regular 400 font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Ubuntu&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+  />
+    <style>
+		body{
+		font-family: 'Nanum Gothic', 'Ubuntu';
+        color: #333f50;
+
+		background-image:url('https://github.com/sS2S2bin/firstportpolio/blob/main/KakaoTalk_20210526_165736121.png?raw=true');
+		background-color:#f6f8fc;
+		}
+		
+	
+        video { 
+        width:100%;
+        max-width:640px;
+        height:auto;
+        }
+
+
+        
+	</style>    
+</head>
+
+
+<body background-image:url('https://github.com/sS2S2bin/firstportpolio/blob/main/KakaoTalk_20210526_165736121.png?raw=true')>
+
+    <!--Navbar--> <!--scrollspy-->
+    <nav id="navbar1" class="navbar navbar-expand-lg navbar-light sticky-top" >
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#"></a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#scrollspyhome" style="font-family: Ubuntu;"> &lt;/Introduce&gt;</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyFirst"  style="font-family: Ubuntu;" >&lt;/Project&gt;</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspySecond" style="font-family: Ubuntu;">&lt;/Award history&gt;</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyThird" style="font-family: Ubuntu;">&lt;/Skill&gt;</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+    </nav>
+
+    <div  class = "text-center mt-5 mb-5 h-50 px-3">
+        <h1  style="font-family: Ubuntu;">Welcome to My Space ! </h1>
+        <p class = "lead" style="font-family: Ubuntu;">Let me show myself. 
+        </p>
+        <div class="d-flex justify-content-center my-5">
+            <div style="background-color:#ffe375 ;border-radius: 70%; width: 200px; height: 200px; position: relative; ">
+                    <img alt="my emogi.partyver" src="https://github.com/sS2S2bin/firstportpolio/blob/main/%EA%B0%9C%EB%B0%9C%20%EC%88%98%EB%B9%88.png?raw=true" 
+                    srcset="
+                    https://github.com/sS2S2bin/firstportpolio/blob/main/%EA%B0%9C%EB%B0%9C%20%EC%88%98%EB%B9%88.png?raw=true.jpg  500w,
+                    https://github.com/sS2S2bin/firstportpolio/blob/main/%EA%B0%9C%EB%B0%9C%20%EC%88%98%EB%B9%88.png?raw=true.jpg  800w,
+                    https://github.com/sS2S2bin/firstportpolio/blob/main/%EA%B0%9C%EB%B0%9C%20%EC%88%98%EB%B9%88.png?raw=true.jpg  1000w,
+                    "
+                sizes="60vmin">
+            </div>
+            <div style="background-color:#8ea3c7 ;border-radius: 70%; width: 200px; height: 200px; position: relative; left:-30px;">
+                <img alt="my emogi.partyver" src="https://github.com/sS2S2bin/firstportpolio/blob/main/%ED%8F%AD%EC%A3%BD%20%EC%88%98%EB%B9%88.png?raw=true" 
+                    srcset="
+                    https://github.com/sS2S2bin/firstportpolio/blob/main/%ED%8F%AD%EC%A3%BD%20%EC%88%98%EB%B9%88.png?raw=true.jpg  500w,
+                    https://github.com/sS2S2bin/firstportpolio/blob/main/%ED%8F%AD%EC%A3%BD%20%EC%88%98%EB%B9%88.png?raw=true.jpg  800w,
+                    https://github.com/sS2S2bin/firstportpolio/blob/main/%ED%8F%AD%EC%A3%BD%20%EC%88%98%EB%B9%88.png?raw=true.jpg  1000w,
+                    "
+                sizes="60vmin">
+            </div>
+        </div>
+            <!-- 저는 어쩌고 입니다. -->
+            <div class = "container text-center">
+                <div class = "row">
+                    <div class = "col-3 my-3">저는</div>
+                    <div class = "col-6" >
+                        <select class="form-select form-select-lg mb-3" style="text-align:center; text-align-last: center; -ms-text-align-last: center; -moz-text-align-last: center;" aria-label=".form-select-lg example">
+                            <option selected style="font-size:20px; font-family: Ubuntu;">DD Provider</option>
+                            <option value="1" style="font-family:Nanum Gothic; font-size:20px; text-align:center;">즐거움을 개발하는 프론트엔드 개발자</option>
+                            <option value="2" style="font-family:Nanum Gothic; font-size:20px; text-align:center;">효율성을 설계하는 기획가</option>
+                            <option value="3" style="font-family:Nanum Gothic; font-size:20px; text-align:center;">세심한 디자이너</option>
+                        </select>
+                            <!-- <select class="form-select form-select-lg mb-3 " style="text-align:center; text-align-last: center; -ms-text-align-last: center; -moz-text-align-last: center;" aria-label=".form-select-lg example">
+                            <option selected style="font-size:20px; ">DD Provider</option>
+                            <option value="1" style="font-family:Nanum Gothic; font-size:20px; text-align:center;">즐거움을 개발하는 프론트엔드 개발자</option>
+                            <option value="2" style="font-family:Nanum Gothic; font-size:20px; text-align:center;">효율성을 설계하는 기획가</option>
+                            <option value="3" style="font-family:Nanum Gothic; font-size:20px; text-align:center;">세심한 디자이너</option>
+                            </select> -->
+                    </div>
+                    <div class = "col-3 my-3">입니다.</div>
+                </div>
+            </div>
+    </div>
+
+    <!--강의자료 7 First-->
+    <div id="scrollspyhome"class="container mt-2 my-5 text-center">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="containter mt-10" style="margin-top: 100px;">
+                    <img class="rounded-circle"width="140" height="140" src="https://github.com/sS2S2bin/firstportpolio/blob/main/%EC%83%9D%EA%B0%81%EC%88%98%EB%B9%88.png?raw=true" style="object-fit: cover;"></image>
+                    <h2 class="my-3" style=" color: #ffe375; font-family: Ubuntu; ">Curiousity</h2>
+                    <p>저의 생각은 바다입니다. 깊고 넓은 생각이라는 바다에선 호기심과 감수성이 가장 많이 서식하고 있습니다. 생각들은 꼬리에 꼬리를 물고 새로운 아이디어를 가져옵니다. </p> <!--서버개발 회사에서 사용자 경험을 고려한 웹페이지 리디자인 프론트앤드 개발을 하고 있습니다.-->
+                    <!-- <p ><a class="btn" style="background-color: slategray;" href="#">View details</a></p> -->
+                </div>
+
+            </div>
+            <div class="col-lg-4">
+                <div class="containter mt-10" style="margin-top: 100px;">
+                    <img class="rounded-circle"width="140" height="140" src="https://github.com/sS2S2bin/firstportpolio/blob/main/%ED%99%9C%EC%A7%9D%20%EC%88%98%EB%B9%88.png?raw=true" style="object-fit: cover;" data-bs-toggle="tooltip" data-bs-placement="bottom" title='넌 내 에너자이저야 같이 있으면 끊임없이 밝은 기운을 받는거 같아 !'></image>
+                    <h2 class="my-3"style=" color: #ffe375; font-family: Ubuntu; ">Energy Brightness</h2>
+                    <p > 몸안에 가득찬 밝은 에너지는 사람들에게 느껴집니다. 세상을 조금이라도 밝고 행복하게 만드는데에 도모하며 힘을 얻습니다. 앞으로도 이런 작업을 통하여 사람들에게 밝은 에너지를 줄 것입니다 ! </p>
+                    <!-- <p ><a class="btn" style="background-color: slategray;" href="#">진행한 프로젝트 살펴보기</a></p> -->
+                </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="containter mt-10" style="margin-top: 100px;">
+                    <img class="rounded-circle"width="140" height="140" src="https://github.com/sS2S2bin/firstportpolio/blob/main/%EB%B0%98%EC%A7%9D%EC%88%98%EB%B9%88.png?raw=true" style="object-fit: cover;" data-bs-toggle="tooltip" data-bs-placement="bottom" title='너는 진짜 뭐든지 열심히 하는거 같아 열정의 Default값이 보통 사람보다 높다고 느껴져 '></image>
+                    <h2 class="my-3" style=" color: #ffe375; font-family: Ubuntu; ">New Ardor</h2>
+                    <p >열정맨. 저를 뜻할 수 있는 또다른 단어입니다. 디테일한 부분까지 열정과 애정을 담습니다. 저의 열정은 주변 사람들로부터 하여금 동기부여가 된다고 말합니다. 새로운 것을 시도해보고 도전해보려는 열정이 가득합니다.</p>
+                    <!-- <p ><a class="btn" style="background-color: slategray;" href="#">View details</a></p> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <hr id="scrollspyFirst" class="container my-5" style="margin-top: 300px; margin-bottom: 300px;">
+            <div class="row my-5 mx-3" style="background-color:rgba(255, 255, 255, 0.3);; border-radius: 12px; padding: 40px; box-shadow: 0px 15px 20px rgba(51, 63, 80, 0.4); margin-top: 300px; margin-bottom: 300px;">
+                <div class="col-lg-7 col-md-7">
+                    <div id="project_cor" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner" >
+                            <div class="carousel-item active">
+                                <img src="https://github.com/sS2S2bin/firstportpolio/blob/main/%EC%97%91%EB%8B%B72.png?raw=true" class="d-block w-100" alt="엑닷" style="object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://github.com/sS2S2bin/firstportpolio/blob/main/%EC%97%91%EB%8B%B71.png?raw=true" class="d-block w-100" alt="엑닷" style="object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://github.com/sS2S2bin/firstportpolio/blob/main/%EC%97%91%EB%8B%B73.png?raw=true" class="d-block w-100" alt="엑닷" style="object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://github.com/sS2S2bin/firstportpolio/blob/main/%EC%8B%9C%EB%8F%84%EC%8B%9C%EC%9E%911.png?raw=true" class="d-block w-100" alt="엑닷" style="object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://github.com/sS2S2bin/firstportpolio/blob/main/%EC%8B%9C%EB%8F%84%EC%8B%9C%EC%9E%912.png?raw=true" class="d-block w-100" alt="엑닷" style="object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://github.com/sS2S2bin/firstportpolio/blob/main/%EC%8B%9C%EB%8F%84%EC%8B%9C%EC%9E%913.png?raw=true" class="d-block w-100" alt="엑닷" style="object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://github.com/sS2S2bin/firstportpolio/blob/main/%EC%8B%9C%EB%8F%84%EC%8B%9C%EC%9E%914.png?raw=true" class="d-block w-100" alt="엑닷" style="object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://github.com/sS2S2bin/firstportpolio/blob/main/%EC%9A%B0%EB%A6%AC%EC%A7%91%EA%B0%90%EB%82%98%EB%AC%B41.png?raw=true" class="d-block w-100" alt="엑닷" style="object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://github.com/sS2S2bin/firstportpolio/blob/main/%EC%9A%B0%EB%A6%AC%EC%A7%91%EA%B0%90%EB%82%98%EB%AC%B42.png?raw=true" class="d-block w-100" alt="엑닷" style="object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://github.com/sS2S2bin/firstportpolio/blob/main/%EC%9A%B0%EB%A6%AC%EC%A7%91%EA%B0%90%EB%82%98%EB%AC%B43.png?raw=true" class="d-block w-100" alt="엑닷" style="object-fit: cover;">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                    <div class="col-lg-5 col-md-5" >
+                        <div>
+                            <h3 class="display-12" style="color: orange; display:inline-block; font-family: Ubuntu;" >Curious Ideation</h3>
+                            <h3 class="display-12" style="display:inline-block; font-family: Ubuntu;">&nbsp;extends&nbsp;</h3>
+                            <h3 class="display-12" style="color: orange; display:inline-block; font-family: Ubuntu;">Develop</h3>
+                        </div>
+                        <h6 style="color: rgb(52, 101, 165);display: inline-block;  font-family: Ubuntu;">function</h6>
+                        <h6 style="display: inline-block; font-family: Ubuntu;">In_Contest( </h6>
+                        <h6 style="color:green; display: inline-block; font-family: Ubuntu;"> char </h6>
+                        <h6 style="display: inline-block; font-family: Ubuntu;">Think of Idea ) </h6>
+                        <h6 style=" font-family: Ubuntu;">&nbsp; &nbsp; if( Think out idea ) </h6>
+                        <h6 >&nbsp; &nbsp; &nbsp; &nbsp;{ </h6>
+                        <h6 style="color: cadetblue; font-family: Ubuntu;">&nbsp; &nbsp; &nbsp; &nbsp; /*I did Ideation to develop*/</h6>
+                        <h6 class="text-muted">&nbsp; &nbsp; &nbsp; &nbsp;미디어계 다이렉트 소싱 플랫폼 '엑닷'</h6>
+                        <h6 class="text-muted">&nbsp; &nbsp; &nbsp; &nbsp;청년 창업자를 위한 컨텐츠 큐레이션 서비스 '시도시작'</h6>
+                        <h6 class="text-muted">&nbsp; &nbsp; &nbsp; &nbsp;가족들을 위한 폐쇄형 SNS'우리집감나무'</h6>
+                        
+                        <h6 >&nbsp; &nbsp; &nbsp; &nbsp;} </h6>
+                        
+                        <h6 style="color:#6283b3; font-family:Ubuntu">Role</h6>
+                        <p >&nbsp; &nbsp; = 팀장, 기획자, 개발자, UI/UX 디자이너 ; </p>   
+                        <h6 style="color:#6283b3; font-family:Ubuntu">Result</h6>
+                        <p >&nbsp; &nbsp; &nbsp; &nbsp;2019 창업아이디어톤 대회  = 최우수상 ; </p>   
+                        <p >&nbsp; &nbsp; &nbsp; &nbsp;제 4회 2020 창업아이디어톤 대회 = 하계 창업 인턴쉽 '펀딩톡';</p>
+                        <p >&nbsp; &nbsp; &nbsp; &nbsp;제 5회 2020 창업아이디어톤 대회 = 주앙주앙 창업동아리 결성 +</p>
+                        <a href="https://drive.google.com/file/d/1I2BAGGjFQAH2Ouv1AD0LlGxxJEtIS9oy/view" target="_blank" style="display:inline-block;"> 안드로이드용 app 개발 <i class="fas fa-play-circle"></i> </a>         
+                    </div>
+                </div>
+            </div>
+
+
+        
+        <div id="des"class="row my-5 mx-3" style="background-color:rgba(255, 255, 255, 0.2); border-radius: 12px; padding: 40px; box-shadow: 0px 15px 20px rgba(51, 63, 80, 0.4);">
+            <div class="col-lg-6 col-md-7">
+                <!-- <video controls muted poster="https://github.com/sS2S2bin/firstportpolio/blob/main/melon1.png?raw=true" preload="auto" width="700px">
+                    <source src="mp4/melon.mp4" type="video/mp4" style="object-fit: cover;">
+                    해당 브라우저가 동영상 태그를 지원하지 않습니다. 크롬을 권장합니다.
+                  </video> -->
+                  <iframe width="600" height="400" src="https://www.youtube.com/embed/WIPisftqhvk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-6 col-md-5">
+                <div>
+                    <h3 class="display-12" style="color: orange; display:inline-block; font-family: Ubuntu;" >UI/UX Design</h3>
+                    <h3 class="display-12" style="display:inline-block; font-family: Ubuntu;">&nbsp;extends&nbsp;</h3>
+                    <h3 class="display-12" style="color: orange; display:inline-block; font-family: Ubuntu;">Details</h3>
+                </div>
+                    <h6 class="text-muted">&nbsp; &nbsp;대표 뮤직 스트리밍 어플리케이션 '멜론'의 UI UX 분석</h6>
+                    <p class="text-muted" style="font-family: Ubuntu;">&nbsp; &nbsp; &nbsp; &nbsp;while(developer)</p>
+                    <p class="text-muted">&nbsp; &nbsp;{ 개발자에 국한되지 않고, UI/UX 디자인 공부까지 진행하여 디자인과 개발까지 가능한 디벨로퍼가 되고자 합니다. } </p>
+                    <h3 style="color:#6283b3; font-family:Ubuntu">Role</h3>
+                    <p >&nbsp; &nbsp; = UI/UX 분석, 앱 리디자인 ; </p>                          
+                    <h3 style="color:#6283b3; font-family:Ubuntu">Result</h3>
+                    <p > &nbsp; &nbsp; &nbsp; &nbsp;CPU기반 서버개발 회사 인턴쉽 = Admim 전용 웹서버 홈페이지 프론트앤드 개발 진행 ; </p>   
+                    <p style="color: cadetblue; font-size: small;">&nbsp; &nbsp; &nbsp; &nbsp;/*해당 사항은 진행중인 프로젝트 회사 내부 규정상 사진을 첨부를 하지 못하였습니다.*/</p>  
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="els"class="row my-5 mx-3" style="background-color:rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 40px; box-shadow: 0px 15px 20px rgba(51, 63, 80, 0.4);">
+            <div class="col-lg-6 col-md-6 flex">
+                <!-- <video controls muted poster="https://github.com/sS2S2bin/firstportpolio/blob/main/%ED%99%98%EA%B2%BD%EC%9D%B8%ED%8F%AC%EA%B7%B8%EB%9E%98%ED%94%BC.PNG?raw=true" preload="auto" width="700px">
+                    <source src="mp4/환경인포그래픽.mp4" type="video/mp4" width="50px">
+                    해당 브라우저가 동영상 태그를 지원하지 않습니다. 크롬을 권장합니다.
+                </video> -->
+                <iframe width="600" height="400" src="https://www.youtube.com/embed/YIyQPcTGKSg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-6 col-md-6 flex">
+                <div>
+                    <h3 class="display-12" style="color: orange; display:inline-block; font-family: Ubuntu;" >Try</h3>
+                    <h3 class="display-12" style="display:inline-block; font-family: Ubuntu;">&nbsp;extends&nbsp;</h3>
+                    <h3 class="display-12" style="color: orange; display:inline-block; font-family: Ubuntu;">Ador</h3>
+                </div>
+                    <h6 style="color: rgb(52, 101, 165);display: inline-block;">function</h6>
+                    <h6 style="display: inline-block;">Try_something_New( </h6>
+                    <h6 style="color:green; display: inline-block;">long </h6>
+                    <h6 style="display: inline-block;"> passion ) </h6>
+                    <h6 >&nbsp; &nbsp; &nbsp; &nbsp;{ </h6>
+                        <h6 style="color: cadetblue; font-family: Ubuntu;">&nbsp; &nbsp; &nbsp; &nbsp; /*I enjoy Learning NEW*/</h6>
+                        <h6 style="color: green; font-family: Ubuntu;">&nbsp; &nbsp; &nbsp; &nbsp; #Define Protect_enviornmnet Interest</h6>
+
+                        <h6 class="text-muted">&nbsp; &nbsp; &nbsp; &nbsp;spread_goodinfluenece(Interest); </h6>
+                        <h6 class="text-muted">&nbsp; &nbsp; &nbsp; &nbsp;make = video;</h6>
+                        <h6 class="text-muted">&nbsp; &nbsp; &nbsp; &nbsp;2020환경대전 = 담배로인한 환경오염 개선안 ;</h6>
+                        <p >&nbsp; &nbsp; &nbsp; &nbsp;new Skill ++ ;</p>      
+                    <h6 >&nbsp; &nbsp; &nbsp; &nbsp;} </h6>
+                    <h3 style="color:#6283b3; font-family:Ubuntu">Result</h3>
+                    <p >&nbsp; &nbsp; &nbsp; &nbsp;환경 인식  = Continue ; </p>   
+                    <p >&nbsp; &nbsp; &nbsp; &nbsp;new 관심사 ++ ;</p>      
+                </div>
+            </div>
+        </div>
+
+
+    <hr class="container my-10" style="margin-top: 100px;">
+    <!--강의자료 11 Third--> <!--강의자료 12 순서변경 방법 부트스트랩 order-->
+    <div id="scrollspySecond"class="container my-5">
+        <div class="row">
+            <div class="col-lg-7 col-md-7">
+                <img src="https://github.com/sS2S2bin/firstportpolio/blob/main/time.png?raw=true" width="800"> 
+            </div>
+            <div class="col-lg-5 col-md-5 flex" style="font-family: Ubuntu;">
+                <div>
+                    <h3 class="display-12" style="color: orange; display:inline-block; font-family: Ubuntu;" >History</h3>
+                    <h3 class="display-12" style="display:inline-block; font-family: Ubuntu;">&nbsp;extends&nbsp;</h3>
+                    <h3 class="display-12" style="color: orange; display:inline-block; font-family: Ubuntu;">Award</h3>
+                </div>
+                    <h6 style="color: rgb(52, 101, 165);display: inline-block;">function</h6>
+                    <h6 style="display: inline-block;">In_HYU( </h6>
+                    <h6 style="color:green; display: inline-block;">int </h6>
+                    <h6 style="display: inline-block;">do it hard ) </h6>
+                    <h6 >&nbsp; &nbsp; while( in Hanyang Univ. ) </h6>
+                    <h6 >&nbsp; &nbsp; &nbsp; &nbsp;{ </h6>
+                    <h6 style="color: cadetblue;">&nbsp; &nbsp; &nbsp; &nbsp; /*I will*/</h6>
+                    <h6 >&nbsp; &nbsp; &nbsp; &nbsp; JavaScript_devlop += 1;</h6>
+                    <h6 >&nbsp; &nbsp; &nbsp; &nbsp; Learning design tool, Design 3D icon+= 1; }</h6>
+                    <h6 >&nbsp; &nbsp; &nbsp; &nbsp;  }</h6>
+                    <h6 >&nbsp; &nbsp; &nbsp; &nbsp; continue ; </h6>
+
+                    <h3 style="color:#6283b3; font-family:Ubuntu">return</h3>
+                    <p style=" font-family:Ubuntu">&nbsp; &nbsp; &nbsp; &nbsp;UI/UX Design skill += professional ; </p>   
+                    <p style=" font-family:Ubuntu">&nbsp; &nbsp; &nbsp; &nbsp;Can develop app += IOS, Android, Web ;</p>   
+                    <p style=" font-family:Ubuntu">&nbsp; &nbsp; &nbsp; &nbsp;Would develop += Django, React ;</p>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr id="scrollspyThird" class="container my-5">
+    <!--4th--> 
+    <div class="container my-5" >
+        
+        <div class="row">
+            <div class="col-md-6">
+               <h5 class="display-10">프론트앤드 개발부터</h5>
+                <h5 class="text-muted" style="display: inline-block;">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; UX 디자인까지.</h5>
+                <p class="lead" style="display: inline-block; color: indianred;">만능 디발자 이수빈입니다.</p>
+                <img width="200px" height="200px"src="https://github.com/sS2S2bin/firstportpolio/blob/main/%EA%B0%9C%EB%B0%9C%20%EC%88%98%EB%B9%88.png?raw=true" style="object-fit: cover; position: relative;left: 60px;"></image>
+                <img width="200px" height="200px"src="https://github.com/sS2S2bin/firstportpolio/blob/main/%EC%83%9D%EA%B0%81%EC%88%98%EB%B9%88.png?raw=true" style="object-fit: cover; position: relative; left: 80px;"></image>
+            </div>
+            <div class="col-md-6">
+                <div class="progress my-3" style="height: 30px;">
+                    <div id="xd"class="progress-bar progress-bar-striped active " role="progressbar" style="width: 45%; background-color:#fae799" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Adobe Xd & PhotoShop</div>
+                </div>
+                <div class="progress my-3"  style="height: 30px;">
+                    <div id="video"class="progress-bar progress-bar-striped active" role="progressbar" style="width: 50%; background-color:#fae799" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Premier Pro</div>
+                </div>
+                <div class="progress my-3"  style="height: 30px;">
+                    <div id="web"class="progress-bar progress-bar-striped active" role="progressbar" style="width: 50%; background-color:#8ea3c7" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">html & CSS</div>
+                </div>
+                <div class="progress my-3"  style="height: 30px;">
+                    <div id= "app"class="progress-bar progress-bar-striped active" role="progressbar" style="width: 65%; background-color:#6f9ce9" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Android studio</div>
+                </div>
+                <div class="progress my-3"  style="height: 30px;">
+                    <div id="c"class="progress-bar progress-bar-striped active" role="progressbar" style="width: 70%; background-color:#6f9ce9" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">C</div>
+                </div>
+                <div class="progress my-3"  style="height: 30px;">
+                    <div id="java"class="progress-bar progress-bar-striped active" role="progressbar" style="width: 25%; background-color:#6f9ce9" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">JavaScript</div>
+                </div>
+            </div>
+        </div>
+
+            
+                
+        </div>
+    </div>
+        
+    <footer class="mt-auto text-center text-muted"><p>copyright for <a href="http://getbootstrap.com"> Bootstrap </a>, by <a href="#"> @soobin</a>
+        <p style="font-family: Ubuntu; display: inline-block; "> Contact : </p>
+        <a href="mailto:3dltnqls@naver.com" style="font-family:Ubuntu; text-align: center; font-size: 8px;  vertical-align: middle;"><span class="material-icons-outlined">alternate_email</span></a>
+        <a href="https://github.com/sS2S2bin" style="font-family:Ubuntu; text-align: center; margin-left: 5px; font-size: 20px;  vertical-align: middle;"><i class="fab fa-github"></i></a>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+<script>    
+    var Carousel1 = document.querySelector('#project_cor')
+    var carousel = new bootstrap.Carousel(Carousel1)
+</script>
+
+</body>
+
+</html>
